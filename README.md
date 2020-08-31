@@ -26,8 +26,8 @@ Scrums for Group Chatを使用するには<br>
 
 ## 利用方法および展開方法
 それぞれのガイドをご参照ください。<br>
-利用方法：[Scrums for Group Chat利用者ガイド](https://github.com/InfosharePP/Teams-apps-scrumsforgroupchat/releases/download/ver1.0/ScrumsforGroupChat_UsersGuide.pdf)<br>
-展開方法：[Scrums for Group Chat管理者ガイド](https://github.com/InfosharePP/Teams-apps-scrumsforgroupchat/releases/download/ver1.0/ScrumsforGroupChat_AdministratorsGuide.pdf)
+利用方法：[Scrums for Group Chat利用者ガイド](https://github.com/OfficeDevJp/microsoft-teams-apps-scrumsforgroupchat/blob/main/ScrumsforGroupChat_UsersGuide.pdf)<br>
+展開方法：[Scrums for Group Chat管理者ガイド](https://github.com/OfficeDevJp/microsoft-teams-apps-scrumsforgroupchat/blob/main/ScrumsforGroupChat_AdministratorsGuide.pdf)
 
 ## 免責事項
 本テンプレートはサンプルであり、Microsoft Power Appsにおいて、参考情報の提供や、個人と企業のコミュニケーションを促進する目的でのみ使用することができます。本テンプートおよび関連サービスは、恒久的なアプリケーション使用を意図したものではありません。インフォシェア株式会社、また日本マイクロソフトはそのような目的で本テンプレートおよび関連サービスを使用するライセンスや権利を本テンプレート利用組織に付与していません。
