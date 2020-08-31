@@ -1,48 +1,40 @@
-# Scrums for Group Chat App Template
-| [Documentation](https://github.com/OfficeDev/microsoft-teams-app-scrumstatus/wiki) | [Deployment guide](https://github.com/OfficeDev/microsoft-teams-app-scrumstatus/wiki/Deployment-Guide) | [Architecture](https://github.com/OfficeDev/microsoft-teams-app-scrumstatus/wiki/Solution-Overview) |
-| ---- | ---- | ---- |
+# Scrums for Group Chat
+<p align="center">	
+<img alt="download" src="https://img.shields.io/github/downloads/InfosharePP/Teams-apps-scrumsforgroupchat/total?color=brightgreen.svg"/>	
+</p>
 
-Scrums for Group Chat is a simple scrum assistant bot that will enable users to run asynchronous stand-up scrums and provide and easy way for the users to share their daily updates. It is designed to work in Teams group chats and all the members can contribute to the scrum. One can start and end a scrum and can view the updates made by others in a running scrum.
+Scrums for Group Chatは、朝会に代表される、チームの状況を素早く共有することを目的とした、短時間の会議（スクラム）を　Microsoft Teamsにおいて支援するアプリです。本アプリは、Teamsのすべてのユーザー間で臨時的に行われるスクラムを対象としています（※[Scrums for **Channels**](https://github.com/InfosharePP/Teams-apps-scrumsforchannels)は、Teamsのチームメンバー内で定例的に行われるスクラムを対象としています）。この度は、[マイクロソフトが公開しているアプリテンプレート](https://github.com/OfficeDev/microsoft-teams-apps-scrumsforgroupchat/wiki/)を基に、弊社が日本語化を行い、公開しております。<br>
+任意のグループチャットに対して、Botがメッセージを送信、メンバーが進捗状況、作業予定、相談が必要な課題を返信することで、チームとの共有が実現されます。
+国内のリモートワークだけではなく、時差が異なるグローバルに展開したチームメンバー間の情報共有も強力に支援するTeamsアプリです。
 
-The app works best in typical corporate workforce scenarios, where the team members are not confined to a specific geographic region, span across multiple time zones and are more diverse and remote in nature. Most often than not, in such cases it is difficult for all the members within a team to get together in a room daily and share their updates.
+## 主な機能
+①	スクラムの設定<br>
+任意のグループチャットにBot（”Scrum Status Bot”）を追加できます。Botに対してメンション(@Scrum Status Bot)することで、任意のタイミングでスクラムの開始のメッセージが送信されます。
+![スクラムの設定1](https://infoshare.co.jp/wp-content/uploads/2020/08/scrums-for-groupchat-set-1-final.png)
+![スクラムの設定2](https://infoshare.co.jp/wp-content/uploads/2020/08/scrums-for-groupchat-start-final.png)
 
-An end-user interacting with Scrums for Group Chat:
+②	ステータスの更新<br>
+Botからのメッセージ内の「ステータスの更新」ボタンから、自分の”現在までの進行状況”、”次回までの達成目標”、”解決が必要な相談事項”を入力することで、ステータスを更新できます。
+![メンバーのステータスの更新](https://infoshare.co.jp/wp-content/uploads/2020/08/scrums-for-groupchat-input-final.png)
 
-**Provide your updates when a scrum is active**
-![Start Scrum](https://github.com/OfficeDev/microsoft-teams-app-scrumstatus/wiki/images/StartScrum.jpg)
-![Update Details](https://github.com/OfficeDev/microsoft-teams-app-scrumstatus/wiki/images/UpdateScrum.jpg)
+③	スクラムの詳細<br>
+Botからのメッセージ内の「スクラムの詳細」ボタンから、スクラムに参加するメンバーのステータスを閲覧できます。
+![メンバーのステータスの更新](https://infoshare.co.jp/wp-content/uploads/2020/08/scrums-for-groupchat-view-final.png)
 
-**View scrum details updated by you and others**
-![View Details](https://github.com/OfficeDev/microsoft-teams-app-scrumstatus/wiki/images/ViewDetails.jpg)
+## 展開・利用に必要な条件
+Scrums for Group Chatを使用するには<br>
+**Microsoft 365 E3** または **Microsoft 365 E5** のライセンス<br>
+および<br>
+**Microsoft Azure**のサブスクリプション<br>
+が必要です。
 
-## Legal Notice
-This app template is provided under the [MIT License](https://github.com/OfficeDev/microsoft-teams-apps-scrumstatus/blob/master/LICENSE) terms.  In addition to these terms, by using this app template you agree to the following:
+## 利用方法および展開方法
+それぞれのガイドをご参照ください。<br>
+利用方法：[Scrums for Group Chat利用者ガイド](https://github.com/InfosharePP/Teams-apps-scrumsforgroupchat/releases/download/ver1.0/ScrumsforGroupChat_UsersGuide.pdf)<br>
+展開方法：[Scrums for Group Chat管理者ガイド](https://github.com/InfosharePP/Teams-apps-scrumsforgroupchat/releases/download/ver1.0/ScrumsforGroupChat_AdministratorsGuide.pdf)
 
--	You are窶ｯresponsible for complying with all applicable privacy and security regulations related to use, collection and handling of any personal data by your app.  This includes complying with all internal privacy and security policies of your organization if your app is developed to be sideloaded internally within your organization.
-
--	Where applicable, you may be responsible for data related incidents or data subject requests for data collected through your app.
-
--	Any trademarks or registered trademarks of Microsoft in the United States and/or other countries and logos included in this repository are the property of Microsoft, and the license for this project does not grant you rights to use any Microsoft names, logos or trademarks outside of this repository.  Microsoft窶冱 general trademark guidelines can be found [here](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general.aspx).
-
--	Use of this template does not guarantee acceptance of your app to the Teams app store.  To make this app available in the Teams app store, you will have to comply with the [submission and validation process](https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/deploy-and-publish/appsource/publish), and all associated requirements such as including your own privacy statement and terms of use for your app.
-
-
-## **Getting** **Started**
-
-Begin with the [Solution overview](https://github.com/OfficeDev/microsoft-teams-app-scrumstatus/wiki/Solution-Overview) to read about what the app does and how it works.
-
-When you're ready to try out Scrums for Group Chat app, or to use it in your own organization, follow the steps in the [Deployment guide](https://github.com/OfficeDev/microsoft-teams-app-scrumstatus/wiki/Deployment-Guide).
-
-## **Feedback**
-
-Thoughts? Questions? Ideas? Share them with us on [Teams UserVoice](https://microsoftteams.uservoice.com/forums/555103-public)!
-
-Please report bugs and other code issues [here](/issues/new).
-
-## **Contributing**
-
-This project welcomes contributions and suggestions. Most contributions require you to agree to a Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us the rights to use your contribution. For details, visit [https://cla.microsoft.com](https://cla.microsoft.com/).
-
-When you submit a pull request, a CLA-bot will automatically determine whether you need to provide a CLA and decorate the PR appropriately (e.g., label, comment). Simply follow the instructions provided by the bot. You will only need to do this once across all repos using our CLA.
-
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Microsoft Open Source Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+## 免責事項
+本テンプレートはサンプルであり、Microsoft Power Appsにおいて、参考情報の提供や、個人と企業のコミュニケーションを促進する目的でのみ使用することができます。本テンプートおよび関連サービスは、恒久的なアプリケーション使用を意図したものではありません。インフォシェア株式会社、また日本マイクロソフトはそのような目的で本テンプレートおよび関連サービスを使用するライセンスや権利を本テンプレート利用組織に付与していません。
+本テンプレートおよび関連サービスは、各企業のニーズを全て含めるように設計されたものではなく、そのような用途で使用されるものではありません。実際の利用や必要な追加のカスタマイズは導入支援パートナーに確認・依頼してください。
+本テンプレートおよび関連サービスのいかなる使用においても、利用者がすべてリスクと責任を負うものとします。また、実装した本テンプレートおよび関連マイクロソフト サービスの使用に関して、適切な警告や情報をエンドユーザーに提供することについても、利用者が責任を負うものとします。
+本テンプレートは、日本国内での使用のみを目的とし、欠陥などがある可能性を含んだままの状態で提供されており、いかなる種類の保証も適用されません。
