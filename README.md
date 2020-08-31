@@ -1,40 +1,36 @@
 # Scrums for Group Chat
-<p align="center">	
-<img alt="download" src="https://img.shields.io/github/downloads/InfosharePP/Teams-apps-scrumsforgroupchat/total?color=brightgreen.svg"/>	
-</p>
+Scrums for Group Chatは、朝会に代表される、チームの状況を素早く共有することを目的とした、短時間の会議（スクラム）を　Microsoft Teamsにおいて支援するアプリです。本アプリは、Teamsのすべてのユーザー間で臨時的に行われるスクラムを対象としています（※[Scrums for **Channels**](https://github.com/OfficeDevJp/microsoft-teams-apps-scrumsforchannels)は、Teamsのチームメンバー内で定例的に行われるスクラムを対象としています）。この度は、[マイクロソフトが公開しているアプリテンプレート](https://github.com/OfficeDev/microsoft-teams-apps-scrumsforgroupchat/wiki/)を基に、弊社が日本語化を行い、公開しております。<br>
+任意のグループチャットに対して、Botがメッセージを送信、メンバーが進捗状況、作業予定、相談が必要な課題を返信することで、チームとの共有が実現されます。
+国内のリモートワークだけではなく、時差が異なるグローバルに展開したチームメンバー間の情報共有も強力に支援するTeamsアプリです。
 
-Scrums for Group Chat�́A����ɑ�\�����A�`�[���̏󋵂�f�������L���邱�Ƃ�ړI�Ƃ����A�Z���Ԃ̉�c�i�X�N�����j���@Microsoft Teams�ɂ����Ďx������A�v���ł��B�{�A�v���́ATeams�̂��ׂẴ��[�U�[�ԂŗՎ��I�ɍs����X�N������ΏۂƂ��Ă��܂��i��[Scrums for **Channels**](https://github.com/InfosharePP/Teams-apps-scrumsforchannels)�́ATeams�̃`�[�������o�[���Œ��I�ɍs����X�N������ΏۂƂ��Ă��܂��j�B���̓x�́A[�}�C�N���\�t�g�����J���Ă���A�v���e���v���[�g](https://github.com/OfficeDev/microsoft-teams-apps-scrumsforgroupchat/wiki/)����ɁA���Ђ����{�ꉻ���s���A���J���Ă���܂��B<br>
-�C�ӂ̃O���[�v�`���b�g�ɑ΂��āABot�����b�Z�[�W�𑗐M�A�����o�[���i���󋵁A��Ɨ\��A���k���K�v�ȉۑ��ԐM���邱�ƂŁA�`�[���Ƃ̋��L����������܂��B
-�����̃����[�g���[�N�����ł͂Ȃ��A�������قȂ�O���[�o���ɓW�J�����`�[�������o�[�Ԃ̏�񋤗L�����͂Ɏx������Teams�A�v���ł��B
+## 主な機能
+①	スクラムの設定<br>
+任意のグループチャットにBot（”Scrum Status Bot”）を追加できます。Botに対してメンション(@Scrum Status Bot)することで、任意のタイミングでスクラムの開始のメッセージが送信されます。
+![スクラムの設定1](https://infoshare.co.jp/wp-content/uploads/2020/08/scrums-for-groupchat-set-1-final.png)
+![スクラムの設定2](https://infoshare.co.jp/wp-content/uploads/2020/08/scrums-for-groupchat-start-final.png)
 
-## ��ȋ@�\
-�@	�X�N�����̐ݒ�<br>
-�C�ӂ̃O���[�v�`���b�g��Bot�i�hScrum Status Bot�h�j��ǉ��ł��܂��BBot�ɑ΂��ă����V����(@Scrum Status Bot)���邱�ƂŁA�C�ӂ̃^�C�~���O�ŃX�N�����̊J�n�̃��b�Z�[�W�����M����܂��B
-![�X�N�����̐ݒ�1](https://infoshare.co.jp/wp-content/uploads/2020/08/scrums-for-groupchat-set-1-final.png)
-![�X�N�����̐ݒ�2](https://infoshare.co.jp/wp-content/uploads/2020/08/scrums-for-groupchat-start-final.png)
+②	ステータスの更新<br>
+Botからのメッセージ内の「ステータスの更新」ボタンから、自分の”現在までの進行状況”、”次回までの達成目標”、”解決が必要な相談事項”を入力することで、ステータスを更新できます。
+![メンバーのステータスの更新](https://infoshare.co.jp/wp-content/uploads/2020/08/scrums-for-groupchat-input-final.png)
 
-�A	�X�e�[�^�X�̍X�V<br>
-Bot����̃��b�Z�[�W���́u�X�e�[�^�X�̍X�V�v�{�^������A�����́h���݂܂ł̐i�s�󋵁h�A�h����܂ł̒B���ڕW�h�A�h�������K�v�ȑ��k�����h����͂��邱�ƂŁA�X�e�[�^�X���X�V�ł��܂��B
-![�����o�[�̃X�e�[�^�X�̍X�V](https://infoshare.co.jp/wp-content/uploads/2020/08/scrums-for-groupchat-input-final.png)
+③	スクラムの詳細<br>
+Botからのメッセージ内の「スクラムの詳細」ボタンから、スクラムに参加するメンバーのステータスを閲覧できます。
+![メンバーのステータスの更新](https://infoshare.co.jp/wp-content/uploads/2020/08/scrums-for-groupchat-view-final.png)
 
-�B	�X�N�����̏ڍ�<br>
-Bot����̃��b�Z�[�W���́u�X�N�����̏ڍׁv�{�^������A�X�N�����ɎQ�����郁���o�[�̃X�e�[�^�X���{���ł��܂��B
-![�����o�[�̃X�e�[�^�X�̍X�V](https://infoshare.co.jp/wp-content/uploads/2020/08/scrums-for-groupchat-view-final.png)
+## 展開・利用に必要な条件
+Scrums for Group Chatを使用するには<br>
+**Microsoft 365 E3** または **Microsoft 365 E5** のライセンス<br>
+および<br>
+**Microsoft Azure**のサブスクリプション<br>
+が必要です。
 
-## �W�J�E���p�ɕK�v�ȏ���
-Scrums for Group Chat���g�p����ɂ�<br>
-**Microsoft 365 E3** �܂��� **Microsoft 365 E5** �̃��C�Z���X<br>
-�����<br>
-**Microsoft Azure**�̃T�u�X�N���v�V����<br>
-���K�v�ł��B
+## 利用方法および展開方法
+それぞれのガイドをご参照ください。<br>
+利用方法：[Scrums for Group Chat利用者ガイド](https://github.com/InfosharePP/Teams-apps-scrumsforgroupchat/releases/download/ver1.0/ScrumsforGroupChat_UsersGuide.pdf)<br>
+展開方法：[Scrums for Group Chat管理者ガイド](https://github.com/InfosharePP/Teams-apps-scrumsforgroupchat/releases/download/ver1.0/ScrumsforGroupChat_AdministratorsGuide.pdf)
 
-## ���p���@����ѓW�J���@
-���ꂼ��̃K�C�h�����Q�Ƃ��������B<br>
-���p���@�F[Scrums for Group Chat���p�҃K�C�h](https://github.com/InfosharePP/Teams-apps-scrumsforgroupchat/releases/download/ver1.0/ScrumsforGroupChat_UsersGuide.pdf)<br>
-�W�J���@�F[Scrums for Group Chat�Ǘ��҃K�C�h](https://github.com/InfosharePP/Teams-apps-scrumsforgroupchat/releases/download/ver1.0/ScrumsforGroupChat_AdministratorsGuide.pdf)
-
-## �Ɛӎ���
-�{�e���v���[�g�̓T���v���ł���AMicrosoft Power Apps�ɂ����āA�Q�l���̒񋟂�A�l�Ɗ�Ƃ̃R�~���j�P�[�V�����𑣐i����ړI�ł̂ݎg�p���邱�Ƃ��ł��܂��B�{�e���v�[�g����ъ֘A�T�[�r�X�́A�P�v�I�ȃA�v���P�[�V�����g�p���Ӑ}�������̂ł͂���܂���B�C���t�H�V�F�A������ЁA�܂����{�}�C�N���\�t�g�͂��̂悤�ȖړI�Ŗ{�e���v���[�g����ъ֘A�T�[�r�X���g�p���郉�C�Z���X�⌠����{�e���v���[�g���p�g�D�ɕt�^���Ă��܂���B
-�{�e���v���[�g����ъ֘A�T�[�r�X�́A�e��Ƃ̃j�[�Y��S�Ċ܂߂�悤�ɐ݌v���ꂽ���̂ł͂Ȃ��A���̂悤�ȗp�r�Ŏg�p�������̂ł͂���܂���B���ۂ̗��p��K�v�Ȓǉ��̃J�X�^�}�C�Y�͓����x���p�[�g�i�[�Ɋm�F�E�˗����Ă��������B
-�{�e���v���[�g����ъ֘A�T�[�r�X�̂����Ȃ�g�p�ɂ����Ă��A���p�҂����ׂă��X�N�ƐӔC�𕉂����̂Ƃ��܂��B�܂��A���������{�e���v���[�g����ъ֘A�}�C�N���\�t�g �T�[�r�X�̎g�p�Ɋւ��āA�K�؂Ȍx��������G���h���[�U�[�ɒ񋟂��邱�Ƃɂ��Ă��A���p�҂��ӔC�𕉂����̂Ƃ��܂��B
-�{�e���v���[�g�́A���{�����ł̎g�p�݂̂�ړI�Ƃ��A���ׂȂǂ�����\�����܂񂾂܂܂̏�ԂŒ񋟂���Ă���A�����Ȃ��ނ̕ۏ؂��K�p����܂���B
+## 免責事項
+本テンプレートはサンプルであり、Microsoft Power Appsにおいて、参考情報の提供や、個人と企業のコミュニケーションを促進する目的でのみ使用することができます。本テンプートおよび関連サービスは、恒久的なアプリケーション使用を意図したものではありません。インフォシェア株式会社、また日本マイクロソフトはそのような目的で本テンプレートおよび関連サービスを使用するライセンスや権利を本テンプレート利用組織に付与していません。
+本テンプレートおよび関連サービスは、各企業のニーズを全て含めるように設計されたものではなく、そのような用途で使用されるものではありません。実際の利用や必要な追加のカスタマイズは導入支援パートナーに確認・依頼してください。
+本テンプレートおよび関連サービスのいかなる使用においても、利用者がすべてリスクと責任を負うものとします。また、実装した本テンプレートおよび関連マイクロソフト サービスの使用に関して、適切な警告や情報をエンドユーザーに提供することについても、利用者が責任を負うものとします。
+本テンプレートは、日本国内での使用のみを目的とし、欠陥などがある可能性を含んだままの状態で提供されており、いかなる種類の保証も適用されません。
