@@ -70,7 +70,7 @@ namespace Microsoft.Teams.Apps.Scrum.Properties {
         }
         
         /// <summary>
-        ///   Any blockers? に類似しているローカライズされた文字列を検索します。
+        ///   解決が必要な相談事項があれば共有してください に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string BlockersText {
             get {
@@ -79,7 +79,7 @@ namespace Microsoft.Teams.Apps.Scrum.Properties {
         }
         
         /// <summary>
-        ///   I&apos;m not running a scrum right now. Use this command to end an active scrum. に類似しているローカライズされた文字列を検索します。
+        ///   現在スクラムが実行されていません。アクティブなスクラムを終了するにはこのコマンドを使用してください。 に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string CompleteScrumErrorText {
             get {
@@ -88,7 +88,7 @@ namespace Microsoft.Teams.Apps.Scrum.Properties {
         }
         
         /// <summary>
-        ///   end scrum に類似しているローカライズされた文字列を検索します。
+        ///   スクラムを終了する に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string CompleteScrumText {
             get {
@@ -97,7 +97,7 @@ namespace Microsoft.Teams.Apps.Scrum.Properties {
         }
         
         /// <summary>
-        ///   End scrum に類似しているローカライズされた文字列を検索します。
+        ///   スクラムの終了 に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string CompleteScrumTitle {
             get {
@@ -106,7 +106,7 @@ namespace Microsoft.Teams.Apps.Scrum.Properties {
         }
         
         /// <summary>
-        ///   One scrum runs at a time. When you’re done, select End scrum at the bottom of the form. Once you end a scrum, no one can make any more updates to that scrum. Just start a new scrum when you’re ready to get status updates again. に類似しているローカライズされた文字列を検索します。
+        ///   同時に実行できるスクラムは１つです。終了後フォーム上の[スクラムの終了]をクリックしてください。 に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string CompleteScrumTourText {
             get {
@@ -115,7 +115,7 @@ namespace Microsoft.Teams.Apps.Scrum.Properties {
         }
         
         /// <summary>
-        ///   Something went wrong. Please try again later. に類似しているローカライズされた文字列を検索します。
+        ///   問題が発生しました。後ほど再試行してください。 に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string ErrorMessage {
             get {
@@ -124,7 +124,7 @@ namespace Microsoft.Teams.Apps.Scrum.Properties {
         }
         
         /// <summary>
-        ///   Something went wrong and I can’t do that right now. Try again in a few minutes.  に類似しているローカライズされた文字列を検索します。
+        ///   問題が発生し現在実行できません。数分後に再試行してください。 に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string GenericErrorMessage {
             get {
@@ -133,7 +133,7 @@ namespace Microsoft.Teams.Apps.Scrum.Properties {
         }
         
         /// <summary>
-        ///   I can only be used in group chat with no more than 20 members. に類似しているローカライズされた文字列を検索します。
+        ///   スクラムはメンバーが20人以下のグループチャットでしか使用できません。 に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string MemberCountErrorMessage {
             get {
@@ -142,7 +142,7 @@ namespace Microsoft.Teams.Apps.Scrum.Properties {
         }
         
         /// <summary>
-        ///   No Active Scrum に類似しているローカライズされた文字列を検索します。
+        ///   アクティブなスクラムがありません。 に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string NoActiveScrumTitle {
             get {
@@ -151,7 +151,7 @@ namespace Microsoft.Teams.Apps.Scrum.Properties {
         }
         
         /// <summary>
-        ///   {0} You are not a part of the running scrum. Only active members of the scrum can mark it as completed. に類似しているローカライズされた文字列を検索します。
+        ///   {0} あなたは実行中のスクラムのメンバーではありません。スクラムのアクティブメンバーのみが実行中のスクラムを終了できます。 に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string NoPartOfCompleteScrumText {
             get {
@@ -160,7 +160,7 @@ namespace Microsoft.Teams.Apps.Scrum.Properties {
         }
         
         /// <summary>
-        ///   {0} You&apos;re not in the scrum that&apos;s currently running. Once that scrum has ended, you can start a new one. に類似しているローカライズされた文字列を検索します。
+        ///   {0} あなたは現在実行中のスクラムのメンバーではありません。スクラムが終了されたのち新しいスクラムを開始できます。 に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string NoPartOfScrumStartText {
             get {
@@ -169,7 +169,7 @@ namespace Microsoft.Teams.Apps.Scrum.Properties {
         }
         
         /// <summary>
-        ///    You are not a part of the running scrum. You’ll be able to enter your updates next scrum onwards. に類似しているローカライズされた文字列を検索します。
+        ///   あなたは実行中のスクラムのメンバーではありません。次回以降のスクラムで更新内容を入力できます。 に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string NoPartOfScrumUpdateText {
             get {
@@ -178,7 +178,7 @@ namespace Microsoft.Teams.Apps.Scrum.Properties {
         }
         
         /// <summary>
-        ///   {0} You are not a part of the running scrum. You’ll be able to initiate a new scrum once the active scrum is completed. に類似しているローカライズされた文字列を検索します。
+        ///   {0} あなたは実行中のスクラムのメンバーではありません。現在のアクティブなスクラムが終了したのち新しいスクラムを開始できます。 に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string NotPartofScrumText {
             get {
@@ -187,7 +187,7 @@ namespace Microsoft.Teams.Apps.Scrum.Properties {
         }
         
         /// <summary>
-        ///   Enter info (1000 characters max) に類似しているローカライズされた文字列を検索します。
+        ///   情報を入力してください（最大1000字） に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string PlaceholderText {
             get {
@@ -196,7 +196,7 @@ namespace Microsoft.Teams.Apps.Scrum.Properties {
         }
         
         /// <summary>
-        ///   I can only run one scrum at a time. End the current scrum first, then start a new one. に類似しているローカライズされた文字列を検索します。
+        ///   同時に実行できるスクラムは１つです。新しいスクラムを開始するには現在のスクラムを終了してください。 に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string RunningScrumMessage {
             get {
@@ -205,7 +205,7 @@ namespace Microsoft.Teams.Apps.Scrum.Properties {
         }
         
         /// <summary>
-        ///   I am currently designed to work only in Group chats. Please install me in a group chat to start tracking your scrum updates. に類似しているローカライズされた文字列を検索します。
+        ///   現在スクラムはグループチャットでのみ使用可能です。スクラムを更新するにはグループチャットにスクラムをインストールしてください。 に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string ScopeErrorMessage {
             get {
@@ -214,7 +214,7 @@ namespace Microsoft.Teams.Apps.Scrum.Properties {
         }
         
         /// <summary>
-        ///   Scrum completed by {0}, {1} に類似しているローカライズされた文字列を検索します。
+        ///   {1}、スクラムが{0}によって終了されました。 に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string ScrumCompletedByText {
             get {
@@ -223,7 +223,7 @@ namespace Microsoft.Teams.Apps.Scrum.Properties {
         }
         
         /// <summary>
-        ///   Nice Work! This scrum is complete. に類似しているローカライズされた文字列を検索します。
+        ///   おつかれさまでした！このスクラムは終了しました。 に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string ScrumCompleteText {
             get {
@@ -232,7 +232,7 @@ namespace Microsoft.Teams.Apps.Scrum.Properties {
         }
         
         /// <summary>
-        ///   I can only support below commands. に類似しているローカライズされた文字列を検索します。
+        ///   以下のコマンドのみがサポートされます。 に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string ScrumHelpMessage {
             get {
@@ -241,7 +241,7 @@ namespace Microsoft.Teams.Apps.Scrum.Properties {
         }
         
         /// <summary>
-        ///    Scrum started by {0}, {1} に類似しているローカライズされた文字列を検索します。
+        ///   {1}、スクラムが{0}によって開始されました。 に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string ScrumRequestedByText {
             get {
@@ -250,7 +250,7 @@ namespace Microsoft.Teams.Apps.Scrum.Properties {
         }
         
         /// <summary>
-        ///   Update scrum に類似しているローカライズされた文字列を検索します。
+        ///   スクラムの更新 に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string ScrumTaskModuleTitle {
             get {
@@ -259,7 +259,7 @@ namespace Microsoft.Teams.Apps.Scrum.Properties {
         }
         
         /// <summary>
-        ///   Scrum updated by {0}, {1} に類似しているローカライズされた文字列を検索します。
+        ///   {1}、スクラムが{0}によって更新されました。 に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string ScrumUpdatedByText {
             get {
@@ -268,7 +268,7 @@ namespace Microsoft.Teams.Apps.Scrum.Properties {
         }
         
         /// <summary>
-        ///   Status details に類似しているローカライズされた文字列を検索します。
+        ///   詳細ステータス に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string ShowScrumDetailsTitle {
             get {
@@ -277,7 +277,7 @@ namespace Microsoft.Teams.Apps.Scrum.Properties {
         }
         
         /// <summary>
-        ///   Start scrum に類似しているローカライズされた文字列を検索します。
+        ///   スクラムの開始 に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string StartCarouselCardTitle {
             get {
@@ -286,9 +286,7 @@ namespace Microsoft.Teams.Apps.Scrum.Properties {
         }
         
         /// <summary>
-        ///    
-        ///When you ask me to start a scrum, I’ll create a form where people can enter their current status. Everyone can look at these updates.
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   スクラムが開始されるとメンバーが現在のステータスを入力するフォームが作成されます。 に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string StartCommandTourTextPart1 {
             get {
@@ -297,7 +295,7 @@ namespace Microsoft.Teams.Apps.Scrum.Properties {
         }
         
         /// <summary>
-        ///   Want to start a scrum now? に類似しているローカライズされた文字列を検索します。
+        ///   スクラムを開始しますか？ に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string StartCommandTourTextPart2 {
             get {
@@ -306,7 +304,7 @@ namespace Microsoft.Teams.Apps.Scrum.Properties {
         }
         
         /// <summary>
-        ///   Start scrum に類似しているローカライズされた文字列を検索します。
+        ///   スクラムの開始 に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string StartText {
             get {
@@ -315,7 +313,7 @@ namespace Microsoft.Teams.Apps.Scrum.Properties {
         }
         
         /// <summary>
-        ///   Done に類似しているローカライズされた文字列を検索します。
+        ///   完了 に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string SubmitTitle {
             get {
@@ -324,7 +322,7 @@ namespace Microsoft.Teams.Apps.Scrum.Properties {
         }
         
         /// <summary>
-        ///   Take a tour に類似しているローカライズされた文字列を検索します。
+        ///   ツアーの開始 に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string TakeATourButtonText {
             get {
@@ -333,7 +331,7 @@ namespace Microsoft.Teams.Apps.Scrum.Properties {
         }
         
         /// <summary>
-        ///   Here’s a tour of what I can do. に類似しているローカライズされた文字列を検索します。
+        ///   スクラムの機能をツアーで確認します。 に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string TakeTourWelcomeMessage {
             get {
@@ -342,7 +340,7 @@ namespace Microsoft.Teams.Apps.Scrum.Properties {
         }
         
         /// <summary>
-        ///   What will you do today? *(required)* に類似しているローカライズされた文字列を検索します。
+        ///   次回までの達成目標を共有してください に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string TodayText {
             get {
@@ -351,7 +349,7 @@ namespace Microsoft.Teams.Apps.Scrum.Properties {
         }
         
         /// <summary>
-        ///   This field can&apos;t be empty. に類似しているローカライズされた文字列を検索します。
+        ///   このフィールドは空欄にできません に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string TodayValidationText {
             get {
@@ -360,7 +358,7 @@ namespace Microsoft.Teams.Apps.Scrum.Properties {
         }
         
         /// <summary>
-        ///   Last updated on {0} に類似しているローカライズされた文字列を検索します。
+        ///   {0} に最終更新 に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string UpdateScrumTimeStampText {
             get {
@@ -369,7 +367,7 @@ namespace Microsoft.Teams.Apps.Scrum.Properties {
         }
         
         /// <summary>
-        ///   Update status に類似しているローカライズされた文字列を検索します。
+        ///   ステータスの更新 に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string UpdateScrumTitle {
             get {
@@ -378,7 +376,7 @@ namespace Microsoft.Teams.Apps.Scrum.Properties {
         }
         
         /// <summary>
-        ///   User is not from the expected tenant に類似しているローカライズされた文字列を検索します。
+        ///   想定されたテナントからのユーザーではありません。 に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string WarningTextForTenantFailure {
             get {
@@ -387,8 +385,7 @@ namespace Microsoft.Teams.Apps.Scrum.Properties {
         }
         
         /// <summary>
-        ///   
-        ///I help you get status updates from your team. Everyone in the group chat can participate. に類似しているローカライズされた文字列を検索します。
+        ///   チームメンバーのステータス更新を確認しましょう。グループチャットのメンバー全員が参加できます。 に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string WelcomeCardContentPart1 {
             get {
@@ -397,7 +394,7 @@ namespace Microsoft.Teams.Apps.Scrum.Properties {
         }
         
         /// <summary>
-        ///   Want to know more? Take a tour! に類似しているローカライズされた文字列を検索します。
+        ///   もっと知るには？ツアーを開始しましょう！ に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string WelcomeCardContentPart2 {
             get {
@@ -406,7 +403,7 @@ namespace Microsoft.Teams.Apps.Scrum.Properties {
         }
         
         /// <summary>
-        ///   Welcome! に類似しているローカライズされた文字列を検索します。
+        ///   ようこそ！ に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string WelcomeText {
             get {
@@ -415,7 +412,7 @@ namespace Microsoft.Teams.Apps.Scrum.Properties {
         }
         
         /// <summary>
-        ///   What did you do yesterday?*(required)* に類似しているローカライズされた文字列を検索します。
+        ///   現在までの進行状況を共有してください に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string YesterdayText {
             get {
@@ -424,7 +421,7 @@ namespace Microsoft.Teams.Apps.Scrum.Properties {
         }
         
         /// <summary>
-        ///   This field can&apos;t be empty. に類似しているローカライズされた文字列を検索します。
+        ///   このフィールドは空欄にできません。 に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string YesterdayValidationText {
             get {

@@ -118,149 +118,146 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="BlockersText" xml:space="preserve">
-    <value>Any blockers?</value>
+    <value>解決が必要な相談事項があれば共有してください</value>
     <comment>Field name on task module</comment>
   </data>
   <data name="CompleteScrumErrorText" xml:space="preserve">
-    <value>I'm not running a scrum right now. Use this command to end an active scrum.</value>
+    <value>現在スクラムが実行されていません。アクティブなスクラムを終了するにはこのコマンドを使用してください。</value>
     <comment>User hits complete scum,when no scrum is active</comment>
   </data>
   <data name="CompleteScrumText" xml:space="preserve">
-    <value>end scrum</value>
+    <value>スクラムを終了する</value>
     <comment>Complete scrum command</comment>
   </data>
   <data name="CompleteScrumTitle" xml:space="preserve">
-    <value>End scrum</value>
+    <value>スクラムの終了</value>
     <comment>Text to show on complete scrum button</comment>
   </data>
   <data name="CompleteScrumTourText" xml:space="preserve">
-    <value>One scrum runs at a time. When you’re done, select End scrum at the bottom of the form. Once you end a scrum, no one can make any more updates to that scrum. Just start a new scrum when you’re ready to get status updates again.</value>
+    <value>同時に実行できるスクラムは１つです。終了後フォーム上の[スクラムの終了]をクリックしてください。</value>
     <comment>text to show on complete scrum carousel card</comment>
   </data>
   <data name="MemberCountErrorMessage" xml:space="preserve">
-    <value>I can only be used in group chat with no more than 20 members.</value>
+    <value>スクラムはメンバーが20人以下のグループチャットでしか使用できません。</value>
     <comment>Message to show when total member in group is more than 20.</comment>
   </data>
   <data name="NoActiveScrumTitle" xml:space="preserve">
-    <value>No Active Scrum</value>
+    <value>アクティブなスクラムがありません。</value>
     <comment>Text to show on task module when no active scrum</comment>
   </data>
   <data name="NotPartofScrumText" xml:space="preserve">
-    <value>{0} You are not a part of the running scrum. You’ll be able to initiate a new scrum once the active scrum is completed.</value>
+    <value>{0} あなたは実行中のスクラムのメンバーではありません。現在のアクティブなスクラムが終了したのち新しいスクラムを開始できます。</value>
     <comment>When new member added to running scrum</comment>
   </data>
   <data name="RunningScrumMessage" xml:space="preserve">
-    <value>I can only run one scrum at a time. End the current scrum first, then start a new one.</value>
+    <value>同時に実行できるスクラムは１つです。新しいスクラムを開始するには現在のスクラムを終了してください。</value>
     <comment>Message to show when scrum is already running</comment>
   </data>
   <data name="ScopeErrorMessage" xml:space="preserve">
-    <value>I am currently designed to work only in Group chats. Please install me in a group chat to start tracking your scrum updates.</value>
+    <value>現在スクラムはグループチャットでのみ使用可能です。スクラムを更新するにはグループチャットにスクラムをインストールしてください。</value>
     <comment>Show message if installed in personal or team scope</comment>
   </data>
   <data name="ScrumCompletedByText" xml:space="preserve">
-    <value>Scrum completed by {0}, {1}</value>
+    <value>{1}、スクラムが{0}によって終了されました。</value>
     <comment>Text on show on trail card</comment>
   </data>
   <data name="ScrumCompleteText" xml:space="preserve">
-    <value>Nice Work! This scrum is complete.</value>
+    <value>おつかれさまでした！このスクラムは終了しました。</value>
     <comment>Text to show when scrum is complete.</comment>
   </data>
   <data name="ScrumHelpMessage" xml:space="preserve">
-    <value>I can only support below commands.</value>
+    <value>以下のコマンドのみがサポートされます。</value>
   </data>
   <data name="ScrumRequestedByText" xml:space="preserve">
-    <value> Scrum started by {0}, {1}</value>
+    <value>{1}、スクラムが{0}によって開始されました。</value>
     <comment>Text on show on trail card</comment>
   </data>
   <data name="ScrumTaskModuleTitle" xml:space="preserve">
-    <value>Update scrum</value>
+    <value>スクラムの更新</value>
     <comment>text to show as title in task module</comment>
   </data>
   <data name="ScrumUpdatedByText" xml:space="preserve">
-    <value>Scrum updated by {0}, {1}</value>
+    <value>{1}、スクラムが{0}によって更新されました。</value>
     <comment>Text on show on trail card</comment>
   </data>
   <data name="ShowScrumDetailsTitle" xml:space="preserve">
-    <value>Status details</value>
+    <value>詳細ステータス</value>
     <comment>Text to show on show scrum details button</comment>
   </data>
   <data name="StartCarouselCardTitle" xml:space="preserve">
-    <value>Start scrum</value>
+    <value>スクラムの開始</value>
     <comment>Text to show on start command carousel card.</comment>
   </data>
   <data name="StartCommandTourTextPart1" xml:space="preserve">
-    <value> 
-When you ask me to start a scrum, I’ll create a form where people can enter their current status. Everyone can look at these updates.
-   </value>
+    <value>スクラムが開始されるとメンバーが現在のステータスを入力するフォームが作成されます。</value>
     <comment>text to show on start command carousel card</comment>
   </data>
   <data name="StartCommandTourTextPart2" xml:space="preserve">
-    <value>Want to start a scrum now?</value>
+    <value>スクラムを開始しますか？</value>
     <comment>text to show on start command carousel card</comment>
   </data>
   <data name="StartText" xml:space="preserve">
-    <value>Start scrum</value>
+    <value>スクラムの開始</value>
     <comment>Text for start command &amp; title</comment>
   </data>
   <data name="SubmitTitle" xml:space="preserve">
-    <value>Done</value>
+    <value>完了</value>
     <comment>Text to show on submit button</comment>
   </data>
   <data name="TakeATourButtonText" xml:space="preserve">
-    <value>Take a tour</value>
+    <value>ツアーの開始</value>
     <comment>Text to shown on take a tour button</comment>
   </data>
   <data name="TodayText" xml:space="preserve">
-    <value>What will you do today? *(required)*</value>
+    <value>次回までの達成目標を共有してください</value>
     <comment>Field name on task moduel</comment>
   </data>
   <data name="UpdateScrumTitle" xml:space="preserve">
-    <value>Update status</value>
+    <value>ステータスの更新</value>
     <comment>Text to show on update scrum button</comment>
   </data>
   <data name="TodayValidationText" xml:space="preserve">
-    <value>This field can't be empty.</value>
+    <value>このフィールドは空欄にできません</value>
     <comment>Text to show when field is empty</comment>
   </data>
   <data name="WelcomeCardContentPart1" xml:space="preserve">
-    <value>
-I help you get status updates from your team. Everyone in the group chat can participate.</value>
+    <value>チームメンバーのステータス更新を確認しましょう。グループチャットのメンバー全員が参加できます。</value>
     <comment>Welcome message when bot is added to a new team.</comment>
   </data>
   <data name="WelcomeCardContentPart2" xml:space="preserve">
-    <value>Want to know more? Take a tour!</value>
+    <value>もっと知るには？ツアーを開始しましょう！</value>
     <comment>Welcome message when bot is added to a new team.</comment>
   </data>
   <data name="YesterdayText" xml:space="preserve">
-    <value>What did you do yesterday?*(required)*</value>
+    <value>現在までの進行状況を共有してください</value>
     <comment>Field name on task module</comment>
   </data>
   <data name="NoPartOfCompleteScrumText" xml:space="preserve">
-    <value>{0} You are not a part of the running scrum. Only active members of the scrum can mark it as completed.</value>
+    <value>{0} あなたは実行中のスクラムのメンバーではありません。スクラムのアクティブメンバーのみが実行中のスクラムを終了できます。</value>
     <comment>Text to show when a user is added during a running scrum and tries to complete the running scrum.</comment>
   </data>
   <data name="NoPartOfScrumStartText" xml:space="preserve">
-    <value>{0} You're not in the scrum that's currently running. Once that scrum has ended, you can start a new one.</value>
+    <value>{0} あなたは現在実行中のスクラムのメンバーではありません。スクラムが終了されたのち新しいスクラムを開始できます。</value>
     <comment>A user is added during a running scrum and tries to start a new scrum</comment>
   </data>
   <data name="NoPartOfScrumUpdateText" xml:space="preserve">
-    <value> You are not a part of the running scrum. You’ll be able to enter your updates next scrum onwards.</value>
+    <value>あなたは実行中のスクラムのメンバーではありません。次回以降のスクラムで更新内容を入力できます。</value>
     <comment>A user is added during a running scrum and tries to update his/her details</comment>
   </data>
   <data name="YesterdayValidationText" xml:space="preserve">
-    <value>This field can't be empty.</value>
+    <value>このフィールドは空欄にできません。</value>
     <comment>Text to show when field is empty</comment>
   </data>
   <data name="ErrorMessage" xml:space="preserve">
-    <value>Something went wrong. Please try again later.</value>
+    <value>問題が発生しました。後ほど再試行してください。</value>
     <comment>Error message to show to user when error.</comment>
   </data>
   <data name="PlaceholderText" xml:space="preserve">
-    <value>Enter info (1000 characters max)</value>
+    <value>情報を入力してください（最大1000字）</value>
     <comment>Placeholder text on task module</comment>
   </data>
   <data name="WarningTextForTenantFailure" xml:space="preserve">
-    <value>User is not from the expected tenant</value>
+    <value>想定されたテナントからのユーザーではありません。</value>
     <comment>Text to show if user not from a valid tenant</comment>
   </data>
   <data name="AstreixSymbol" xml:space="preserve">
@@ -268,19 +265,19 @@ I help you get status updates from your team. Everyone in the group chat can par
     <comment>Field name on task moduel</comment>
   </data>
   <data name="GenericErrorMessage" xml:space="preserve">
-    <value>Something went wrong and I can’t do that right now. Try again in a few minutes. </value>
+    <value>問題が発生し現在実行できません。数分後に再試行してください。</value>
     <comment>Generic error message</comment>
   </data>
   <data name="TakeTourWelcomeMessage" xml:space="preserve">
-    <value>Here’s a tour of what I can do.</value>
+    <value>スクラムの機能をツアーで確認します。</value>
     <comment>Generic error message</comment>
   </data>
   <data name="UpdateScrumTimeStampText" xml:space="preserve">
-    <value>Last updated on {0}</value>
+    <value>{0} に最終更新</value>
     <comment>Text to show the updated scrum timestamp</comment>
   </data>
   <data name="WelcomeText" xml:space="preserve">
-    <value>Welcome!</value>
+    <value>ようこそ！</value>
     <comment>Welcome title text</comment>
   </data>
 </root>
