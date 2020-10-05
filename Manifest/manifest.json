@@ -18,8 +18,8 @@
     "short": "Scrum Status Bot"
   },
   "description": {
-    "short": "Scrum Status Bot�ŃO���[�v�`���b�g���̃`�[�������o�[�̃X�e�[�^�X���m�F�ł��܂��B",
-    "full": "Scrum Status Bot�̓X�N�����A�V�X�^���g�Ƃ��ă��[�U�[�̔񓯊��R�~���j�P�[�V�������T�|�[�g�����X�̋Ɩ��i���̉~���ȋ��L���菕�����܂��B"
+    "short": "Scrum Status Botでグループチャット内のチームメンバーのステータスを確認できます。",
+    "full": "Scrum Status Botはスクラムアシスタントとしてユーザーの非同期コミュニケーションをサポートし日々の業務進捗の円滑な共有を手助けします。"
   },
   "accentColor": "#FFCCD8",
   "bots": [
@@ -35,12 +35,12 @@
           ],
           "commands": [
             {
-              "title": "Start scrum",
-              "description": "���̃O���[�v�`���b�g�����o�[�Ə󋵂����L���܂��B"
+              "title": "スクラムの開始",
+              "description": "このグループチャットメンバーと状況を共有します。"
             },
             {
-              "title": "End scrum",
-              "description": "���݂̃X�N�������I�����܂��B"
+              "title": "スクラムの終了",
+              "description": "現在のスクラムを終了します。"
             }
           ]
         }
