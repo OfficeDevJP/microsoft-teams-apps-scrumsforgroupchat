@@ -35,11 +35,11 @@
           ],
           "commands": [
             {
-              "title": "スクラムの開始",
+              "title": "Start scrum",
               "description": "このグループチャットメンバーと状況を共有します。"
             },
             {
-              "title": "スクラムの終了",
+              "title": "End scrum",
               "description": "現在のスクラムを終了します。"
             }
           ]
