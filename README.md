@@ -26,5 +26,5 @@ Scrums for Group Chatを使用するには<br>
 
 ## 利用方法および展開方法
 それぞれのガイドをご参照ください。<br>
-利用方法：[Scrums for Group Chat利用者ガイド](https://github.com/OfficeDevJp/microsoft-teams-apps-scrumsforgroupchat/blob/main/Scrums%20for%20Group%20Chat%20利用者ガイド.pdf)<br>
-展開方法：[Scrums for Group Chat管理者ガイド](https://github.com/OfficeDevJp/microsoft-teams-apps-scrumsforgroupchat/blob/main/Scrums%20for%20Group%20Chat%20管理者ガイド.pdf)
+利用方法：[Scrums for Group Chat利用者ガイド](https://github.com/OfficeDevJP/microsoft-teams-apps-scrumsforgroupchat/releases/download/v1.0.0/Scrums_for_Group_Chat_User_Guide.pdf)<br>
+展開方法：[Scrums for Group Chat管理者ガイド](https://github.com/OfficeDevJP/microsoft-teams-apps-scrumsforgroupchat/releases/download/v1.0.0/Scrums_for_Group_Chat_Deployment_Guide.pdf)
