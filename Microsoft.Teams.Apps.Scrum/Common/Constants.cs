@@ -12,12 +12,12 @@ namespace Microsoft.Teams.Apps.Scrum
         /// <summary>
         /// text that triggers start action.
         /// </summary>
-        public const string Start = "start scrum";
+        public const string Start = "スクラムの開始";
 
         /// <summary>
         ///  text that triggers complete scrum action.
         /// </summary>
-        public const string CompleteScrum = "end scrum";
+        public const string CompleteScrum = "スクラムの終了";
 
         /// <summary>
         /// text that triggers tour action.

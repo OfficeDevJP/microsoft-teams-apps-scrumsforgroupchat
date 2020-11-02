@@ -18,8 +18,8 @@
     "short": "Scrum Status Bot"
   },
   "description": {
-    "short": "Scrum Status Bot helps you get status updates from your team in group chat.",
-    "full": "Scrum Status Bot is a simple scrum assistant that will enable users to run asynchronous standup meetings and provide and easy way for the users to share their daily updates."
+    "short": "Scrum Status Botでグループチャット内のチームメンバーのステータスを確認できます。",
+    "full": "Scrum Status Botはスクラムアシスタントとしてユーザーの非同期コミュニケーションをサポートし日々の業務進捗の円滑な共有を手助けします。"
   },
   "accentColor": "#FFCCD8",
   "bots": [
@@ -35,12 +35,12 @@
           ],
           "commands": [
             {
-              "title": "Start scrum",
-              "description": "Enter and review updates from the people in this group chat"
+              "title": "スクラムの開始",
+              "description": "このグループチャットメンバーと状況を共有します。"
             },
             {
-              "title": "End scrum",
-              "description": "Stop the current scrum"
+              "title": "スクラムの終了",
+              "description": "現在のスクラムを終了します。"
             }
           ]
         }
